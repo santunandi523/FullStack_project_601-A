@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>E-Commerce Frontend</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Login Form -->
+    <div class="container" id="loginBox">
+        <h2>Login</h2>
+        <input type="text" id="loginUser" placeholder="Username">
+        <input type="password" id="loginPass" placeholder="Password">
+        <button onclick="login()">Login</button>
+        <p>Don't have account? <a href="#" onclick="showRegister()">Register</a></p>
+    </div>
+
+    <!-- Register Form -->
+    <div class="container hidden" id="registerBox">
+        <h2>Register</h2>
+        <input type="text" id="regUser" placeholder="Username">
+        <input type="password" id="regPass" placeholder="Password">
+        <button onclick="register()">Register</button>
+        <p>Already have account? <a href="#" onclick="showLogin()">Login</a></p>
+    </div>
+
+    <!-- Protected Page -->
+    <div class="container hidden" id="protectedPage">
+        <h2>Welcome to Dashboard 🎉</h2>
+        <button onclick="logout()">Logout</button>
+    </div>
+
+<script src="script.js">
+
+</script>
+
+</body>
+</html>
