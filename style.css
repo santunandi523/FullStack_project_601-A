@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.maincontainer{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+}
+.catagory{
+    display: flex;
+    gap: 10px;
+}
