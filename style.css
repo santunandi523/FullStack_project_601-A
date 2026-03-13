@@ -7,7 +7,8 @@
 .maincontainer{
     display: flex;
     padding: 10px;
-    justify-content: space-between;
+    gap: 10px;
+    
 }
 .catagory{
     display: flex;
