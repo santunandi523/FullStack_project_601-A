@@ -1,0 +1,12 @@
+{
+  "name": "shopverse-ecommerce",
+  "version": "1.0.0",
+  "description": "Full-Stack MERN E-Commerce - ShopVerse",
+  "scripts": {
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "install:all": "cd backend && npm install && cd ../frontend && npm install",
+    "seed": "cd backend && node seed.js"
+  },
+  "readme": "Run 'npm run dev:backend' and 'npm run dev:frontend' in separate terminals"
+}
